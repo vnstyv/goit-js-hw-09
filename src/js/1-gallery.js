@@ -83,7 +83,7 @@
         .join('');
 
 
-    gallery.innerHTM = galleryItem;
+    gallery.innerHTML = galleryItem;
 
     const lightbox = new SimpleLightbox('.gallery a', {
         captionsData: "alt",
